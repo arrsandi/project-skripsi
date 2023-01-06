@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li.active a{
+    color: yellow;
+}
+
+#row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+
+
+
+/* .layanan{
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+} */
+
+#tentang-kami i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #000
+}
+
+
